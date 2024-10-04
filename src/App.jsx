@@ -7,7 +7,6 @@ import SignUp from "./pages/SignUp";
 
 const App = () => {
   return (
-    // Desktop View
     <div>
       <Home/>
       <SignUp/>
