@@ -9,7 +9,7 @@ import {
   CardBody,
 } from "@chakra-ui/react";
 import React from "react";
-import vector from "../assets/vector.png";
+import vector from "../assets/Vector.png";
 import house from "../assets/house.png";
 import shop from "../assets/Shopping cart.png";
 
@@ -19,7 +19,7 @@ const MainContent = () => {
       <Box>
         <Flex gap={4} direction={"column"} mb={4}>
           <Flex alignItems={"center"} gap={2}>
-            <Image src={vector} alt="logo" w={10} />
+            <Image src={vector} alt="vector" w={10} />
             <Text
               fontWeight={"bold"}
               fontSize={{ base: "md", md: "xl", lg: "2xl" }}
